@@ -1,0 +1,243 @@
+﻿<html>
+<head>
+<title>Feedback-S&T Supercars </title>
+	<meta name="author"content="sagar"/>
+	<meta charset="UTF-8"/>
+<style type="text/css">
+
+html{background-image:url("background.jpg");}
+
+h1{text-align:left;font-weight:bold;font-family:Pristina; color:red; font-size:50pt;}
+
+#menu{width:100%;
+height:50px;
+margin:0;
+z-index:99;
+position:relative;
+background-color:none;}
+
+.navbar{
+height:50px;
+padding:0;
+margin:0;
+position:absolute;
+border-right:none;
+}
+
+.navbar li{
+height:auto;
+width:150px;
+float:left;
+text-align:center;
+list-style:none;
+font:normal bold 12px/1.2em
+Arial,Verdana,Helvetica;
+padding:0;
+margin:0;
+background-color:none;
+}
+
+
+.navbar a{
+padding:18px 0;
+border-left:none;
+border-right:none;
+text-decoration:none;
+color:#FFFFFF;
+display:block;
+font-family:'Comic Sans MS';
+}
+
+
+.navbar li:hover, a:hover{
+background-color:#009999;
+color:orange;
+}
+
+
+.navbar li ul{
+display:none;
+height:auto;
+margin:0;
+padding:0;
+}.navbar li:hover ul{
+display:block;
+}
+
+
+.navbar li ul li{
+background-color:#5EAE9E;
+}
+.navbar li ul li a{
+border-left:none;
+border-right:none;
+border-top:1px solid #FFFFFF;
+border-bottom:none;
+}
+
+
+.navbar li ul li a:hover{
+background-color:none;
+}
+
+
+.tftextinput{
+margin:0;
+padding:10px 45px;
+font-family:Arial,Helvetica,Sans-serif;
+font-size:14px;
+border:1px double #0076a3;
+border-right:0px;
+border-top-right-radius:10px 10px;
+border-bottom-right-radius:10px 10px;
+border-top-left-radius:10px 10px;
+border-bottom-left-radius:10px 10px;
+}
+
+
+textarea{
+margin:0;
+padding:10px 40px;
+font-family:Arial, Helvetica, Sans-serif;
+fobt-size:20px;
+font-weight:bold;
+font-style:italic;
+border:1px solid #0076a3;
+border-right:0px;
+border-top-right-radius:20px 20px;
+border-bottom-right-radius:20px 20px;
+border-top-left-radius:20px 20px;
+border-bottom-left-radius:20px 20px;
+}
+
+
+.tfbutton{
+margin:0;
+font-family:Arial,Helvetica,Sans-serif;
+font-size:14px;
+font-weight:bold;
+font-style:italic;
+padding:15px 20px;
+outline:none;
+corsor:pointer;
+text-align:center;
+text-decoration:none;
+color:#FFFFFF;
+background-color:#006633;
+border:solid 1px #0076a3;
+border-right:0px;
+background:-webkit-gradient(linear,left top,left
+bottom from(#00adee),to(#0078a5));
+background:-moz-linear-gradient(top,#00a­
+dee,#0078a5);
+}
+
+
+.tfbutton:hover{
+text-decoration:none;
+background:#007ead;
+background:-webkit-gradient(linear,left top,left
+bottom,from(#0095cc),to(#00678e));
+background:-moz-linear-gradient(top,#009­
+5cc,#00678e);
+}
+
+
+.tfbutton::-moz-focus-inner{
+border:0;
+}
+legend{
+color:#FFFFFF;
+font-family:Comic Sans MS;
+font-size:40px;
+}
+p{
+color:#FFFFFF;
+font-family:Comic Sans MS;
+font-size:20px;
+}
+
+
+
+</style> 
+
+<head>
+
+<body>
+
+<header>
+<a href="logo.html"> <img src="logo.jpg" width=10% height=10% align="left"/> </a> <br/>
+
+<h1> S&T Supercars </h1>
+<div id="menu">
+<ul class="navbar">
+
+	<li><a href="home.html"><strong>HOME</strong></a></li>
+	<li><a href="about.html"><strong>ABOUT</strong></a><li>
+	<li><a href="#"><strong>SERVICES</strong></a>
+		<ul>
+			<li><a href="insurancemaking.html"><strong>Insurance Making</strong></a></li>
+			<li><a href="repairing.html"><strong>Repairing</?strong></a></li>
+			<li><a href="dealing.html"><strong>Dealing</strong></a></li>
+		</ul>
+	</li>
+	<li><a href="#"><strong>GALLERY</strong></a>
+		<ul>
+			<li><a href="photo.html"><strong>Photos</strong></a></li>
+			<li><a href="video.html"><strong>Videos</strong></a></li>
+		</ul>
+	</li>
+	<li><a href="contact.html"><strong>CONTACT</strong></a></li>
+	<li><a href="feedback.html"><strong>FEEDBACK</strong></a></li>
+</ul>
+</div>
+</header>
+<hr/>
+<form action="post">
+ <br/>
+<fieldset>
+<legend> <font color="red" face="Pristina"> Feedback </font></legend>
+<table align=center>
+
+
+<tr>
+<th align=left>
+<p>First Name:<p/>
+<input type="text"class="tftextinput"size="21" placeholder="First Name" autofocus>­
+<br/>
+<p>Last Name:</p>
+<input type="text"class="tftextinput"size="21" placeholder="Last Name" >­
+<br/>
+<p>Mobile:<p/>
+<input type="text"class="tftextinput"size="21" placeholder="Mobile " >­
+<br/>
+<p>Email:<p/>
+<input type="text"class="tftextinput"size="21" placeholder="E-Mail" >­
+<br/>
+<p>Comment:</p>
+<textarea  name="Comments" rows="5" cols="40" placeholder="Enter your message here..." >
+
+</textarea>
+<br/><br/>
+<input type="submit"value="­
+comment"class="tfbutton">
+ <br> <br> 
+
+</th>
+</tr>
+</table>
+</fieldset>
+</form>
+
+
+<footer> 
+<p><u> <small> OUR TEAM </small></u> <br/>
+<small> Sagar Ninave </small> <br/>
+ <small>  Tushar Katewar </small> <br/>		
+ <small> Anup Baghel</p></small>
+<a href="login.html"> Log Out </a>		
+<p id="copy"> <small>  &copy;Copyright reserved by<font color="red" face="Pristina"> S&T Supercars </font>  </small>	 </p> 
+</footer>
+
+</body>
+</html>
